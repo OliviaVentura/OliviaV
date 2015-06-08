@@ -1,0 +1,140 @@
+.right, .left, .toolbar-button, .back-button {
+	color: #145C0D;
+}
+.center{
+	color: #FFDAB9;
+}
+ons-back-button i, ons-back-button span {
+	color: #FFDAB9;
+}
+i {
+	color: #D3D3D3;
+}
+i:active{
+	color: #DCDCDC;
+}
+/*------------------------------------Menu-------------------------------------------------------*/
+.page--menu-page__background 
+{
+background:#0AC559; /* fondo inferior (menu)*/
+}
+
+.page--menu-page__content {
+	color: #FFA07A;
+}
+
+.menu-close, .menu-close > .toolbar-button {
+	color: #999999;
+}
+
+.menu-list, .menu-item:first-child, .menu-item:last-child, .menu-item {
+	background-color: Green;
+	background-image: none !important;
+	border-color: black;
+	color: #FFDAB9; 
+}
+
+.menu-item {
+	padding: 0 0 0 20px;
+	line-height: 52px;
+	height: 52px;
+	text-shadow: rgba(0, 0, 0, 0.5) 0px 1px 0px;
+}
+
+.menu-item:active {
+	background-color: rgba(255, 255, 255, 0.1);
+}
+
+.menu-notification {
+	display: inline-block;
+	margin-top: 12px; /*  */
+	font-size: 14px;
+	height: 16px; /*  */
+	line-height: 16px; /*  */
+	min-width: 16px; /*  */
+	font-weight: 600; /*  */
+}
+
+.bottom-menu-list, .bottom-menu-item:first-child, .bottom-menu-item:last-child, .bottom-menu-item {
+	border-color: #393939;
+	background-color: transparent;
+	background-image: none !important;
+	color: #FFDAB9;
+}
+
+.bottom-menu-item:active {
+	background-color: rgba(255, 255, 255, 0.1);
+}
+/*---------------------------------------------Perfil menu---------------------------------------------------*/
+
+.profile-card2 {
+	width: 100%;
+	text-align: center;
+	color: white;
+	padding: 30px 0;
+	line-height: 1.4;
+	/*background-color: transparent;*/
+	background-color: rgba(35, 113, 175, 0.1);
+	text-shadow: rgba(0, 0, 0, 0.4) 0px 1px 0px;
+}
+
+.profile-image {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  background-color: black;
+  border 1px solid white;
+  box-shadow:rgba(0, 0, 0, 0.2) 0px 2px 0px 0px;
+  -webkit-box-shadow:rgba(0, 0, 0, 0.2) 0px 2px 0px 0px;
+}
+
+.profile-name {
+  margin: 20px 0 0 0;
+  font-weight: 600;
+  font-size: 17px;
+}
+
+.profile-id {
+  margin: 0 0 5px 0;
+  font-size: 14px;
+  opacity: 0.6;
+}
+/*-------------------------------------------- ELEMENTOS DE LISTA -----------------------------------------------------*/
+
+
+    .item {
+      padding: 10px;
+      line-height: 1;
+    }
+    .item-thum {
+      background-color: #6495ED;
+      width: 50px;
+      height: 50px;
+      border-radius: 100%;
+      -webkit-border-radius: 100%;
+    }
+    .item-Reunion {
+      font-size: 18px;
+      font-weight: 500;
+      overflow: hidden;
+    }
+    .item-Participantes {
+      font-size: 14px;
+      color: #666;
+      line-height: 1.3;
+      margin: 4px 0 0 0;
+      padding: 0 30px 0 0;
+      overflow: hidden;
+    }
+    .item-label {
+      font-size: 12px;
+      color: #999;
+      float: right;
+    }
+	.navigation-bar {
+	
+	background: #2FA10E;
+	height: 63px;
+ 	padding-top: 20px;
+}
